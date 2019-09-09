@@ -1,0 +1,23 @@
+.time__content {
+	display: flex;
+	justify-content: space-between;
+	width: 16rem;
+
+	&--small {
+		width: 7rem;
+	}
+}
+
+.time__subhead {
+	width: 16rem;
+	text-align: right;
+
+	&--small {
+		width: 7rem;
+		text-align: left;
+	}
+}
+
+.time__content--left {
+	width: 6.7rem;
+}
