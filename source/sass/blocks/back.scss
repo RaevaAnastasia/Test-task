@@ -33,6 +33,12 @@
 	}
 }
 
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+	.back {
+		background-image: url("../../img/background2x.png");
+	}
+}
+
 .back__rightside {
 	width: 27%;
 	padding-left: 0.5rem;

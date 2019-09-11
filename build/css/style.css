@@ -426,6 +426,14 @@ p
     right: 0;
 }
 
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 144dpi)
+{
+    .back
+    {
+        background-image: url('../../img/background2x.png');
+    }
+}
+
 .back__rightside
 {
     -webkit-box-sizing: border-box;
@@ -494,6 +502,10 @@ p
 {
     width: 7rem;
 }
+.time__content--left
+{
+    width: 6.7rem;
+}
 
 .time__subhead
 {
@@ -506,11 +518,6 @@ p
     width: 7rem;
 
     text-align: left;
-}
-
-.time__content--left
-{
-    width: 6.7rem;
 }
 
 .iso
@@ -777,4 +784,29 @@ p
     display: block; 
 
     width: 4rem;
+}
+
+.visually-hidden,
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden
+{
+    font-size: 0;
+
+    position: absolute;
+
+    overflow: hidden; 
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    border: 0;
+
+    -webkit-clip-path: inset(100%);
+
+            clip-path: inset(100%);
 }
