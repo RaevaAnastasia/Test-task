@@ -59,7 +59,7 @@ p
 
     content: '';
 
-    background-color: #c4c4c4;
+    background-color: #e5e5e5;
 }
 .front::before
 {
@@ -151,12 +151,12 @@ p
 .leftside__class
 {
     margin-top: auto;
-    margin-bottom: .5rem;
+    margin-bottom: .3rem;
 }
 
 .leftside__wrapper-3
 {
-    margin-right: 6rem;
+    margin-right: 6.7rem;
     padding-top: 5rem;
 
     text-align: right;
@@ -164,8 +164,8 @@ p
 
 .leftside__place
 {
-    margin-bottom: 1.3rem; 
-    margin-left: 6.5rem;
+    margin-bottom: 1.6rem; 
+    margin-left: 5.9rem;
 }
 
 .leftside__wrapper-4
@@ -186,7 +186,7 @@ p
     display: -ms-flexbox;
     display: flex;
 
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     margin-bottom: 2rem; 
 
     -ms-flex-wrap: wrap; 
@@ -220,8 +220,9 @@ p
 
 .leftside__number
 {
-    width: 19rem; 
+    width: 19rem;
     margin-top: 2.3rem;
+    margin-left: .5rem;
 }
 
 .leftside__left-text
@@ -252,21 +253,23 @@ p
 
 .rightside__title
 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; 
     width: 12rem;
-    margin-bottom: 0; 
-    padding-left: 1.8rem;
+    margin-bottom: 0;
+    padding-left: 1.3rem;
 }
 
 .rightside__name
 {
     width: 25.7rem; 
     margin-right: 0;
-    padding-top: 2.2rem;
+    padding-top: 2.4rem;
 }
 
 .rightside__from
 {
-    margin-top: 1.4rem;
+    margin-top: 1.6rem;
     padding-left: 2.5rem;
 }
 
@@ -282,7 +285,7 @@ p
     display: -ms-flexbox;
     display: flex;
 
-    margin-bottom: 2rem; 
+    margin-bottom: 1.7rem; 
     padding-right: 1.2rem;
     padding-left: 1.3rem;
 
@@ -413,7 +416,7 @@ p
 
     content: '';
 
-    background-color: #c4c4c4;
+    background-color: #e5e5e5;
 }
 .back::before
 {
@@ -641,6 +644,7 @@ p
 .name__content--small
 {
     height: 2.7rem;
+    padding-top: 0;
 }
 
 .date__subhead
