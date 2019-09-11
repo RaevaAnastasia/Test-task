@@ -47,7 +47,7 @@ p
 
     border-radius: 30px;
     background-color: #4c9bc8;
-    background-image: url('../../img/front-background.png');
+    background-image: url('../img/front-background.png');
 }
 .front::before,
 .front::after
@@ -396,7 +396,7 @@ p
 
     border-radius: 30px;
     background-color: #fff;
-    background-image: url('../../img/background.png');
+    background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-position: right;
 
@@ -433,7 +433,7 @@ p
 {
     .back
     {
-        background-image: url('../../img/background2x.png');
+        background-image: url('../img/background2x.png');
     }
 }
 
